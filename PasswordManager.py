@@ -13,7 +13,7 @@ def load_or_create_key():
     return key
 
 
-# Key load karo
+# Key load
 key = load_or_create_key()
 fernet = Fernet(key)
 
@@ -103,3 +103,4 @@ if MasterPass == MasterPassword:
             print("Invalid Option!")
 else:
     print("Wrong master password!")
+
